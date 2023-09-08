@@ -1,3 +1,7 @@
 package models
 
-type ApiDefinition struct{}
+type ApiDefinition struct {
+	Name   string `json:"name"`
+	Itachi string `json:"itachi"`
+	Liked  bool   `json:"liked"`
+}
